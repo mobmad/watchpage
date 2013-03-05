@@ -5,8 +5,7 @@ Has a website changed? This small shell script will poll for changes and notify 
 ## Install
 
 1. Checkout repo
-2. `chmod +x watchpage.sh`
-3. (optional) tune poll interval in [watchpage.sh](watchpage.sh)
+2. (optional) tune poll interval in [watchpage.sh](watchpage.sh)
 
 ## Usage
 
@@ -16,4 +15,4 @@ Has a website changed? This small shell script will poll for changes and notify 
 ## Receiving SMS notifications
 
 1. Register for a [Twilio](https://www.twilio.com) account to receive SMS/Call notifications
-2. Rename `twilio.config.example` to `twilio.config` The values can be found on your Twilio account
+2. `cp twilio.config.example twilio.config` and update with values found on your Twilio account
