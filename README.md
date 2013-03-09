@@ -2,6 +2,9 @@
 
 Has a website changed? This small shell script will poll for changes and notify you when they occur.
 
+Note: you might want to checkout [watchpage-heroku](http://github.com/mobmad/watchpage-heroku) for an 
+updated version that runs on heroku
+
 ## Install
 
 1. Checkout repo
